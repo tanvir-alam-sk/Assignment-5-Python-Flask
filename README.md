@@ -6,10 +6,15 @@ These are Python functions handling HTTP requests. Controllers are defined for s
 
 #For User
 
-- Add new tasks
-- Delete existing tasks
-- Update tasks
-- View all tasks
+- register new User
+- Login Existing User
+- View Logined User Profile
+- View all destinations
+
+#For admin 
+- Add new destinations
+- Delete existing destinations
+
 
 ## Installation
 
