@@ -16,13 +16,13 @@ These are Python functions handling HTTP requests. Controllers are defined for s
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/task-manager-flask.git
+   git clone https://github.com/TanvirAlamSk/Assignment-5 flask-assignment
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd task-manager-flask
+   cd flask-assignment
    ```
 
 3. Create a virtual environment:
@@ -56,33 +56,34 @@ These are Python functions handling HTTP requests. Controllers are defined for s
 1. Run the application:
 
    ```bash
-   python app.py
+   -python Servwr.py (5000 port)
+   -python app.py (5000 port)
    ```
 
-2. Open your web browser and go to `http://127.0.0.1:5000/`.
+2. Open your web browser and go to `http://127.0.0.1:5000/ & http://127.0.0.1:5001/`.
 
 ## Project Structure
 
-- `app.py`: The main application file.
+- `app.py`: The main user regintration, login and get loged in user profie file.
+- `serer.py`: The main add,remove,and updaate destination by only Admin file.
 - `templates/`: Directory containing HTML templates.
   - `index.html`: Template for displaying tasks.
   - `update.html`: Template for updating tasks.
-- `task_db.db`: SQLite database file.
+- `db/destinations.py`: Save destination as a database file.
+- `db/users.py`: Save users as a database file.
 
 ## Models
-
-### Todo
-
-- `id`: Integer, primary key.
-- `content`: String, task content.
-- `completed`: Integer, task completion status (default is 0).
-- `date_created`: DateTime, task creation date (default is current UTC time).
 
 ## Routes
 
 - `/`: Main page to view and add tasks.
-- `/delete/<int:id>`: Route to delete a task by its ID.
-- `/update/<int:id>`: Route to update a task by its ID.
+- `/register`: Reagister New User.
+- `/login`: Login user.
+- `/profile`: Get loded in User Profile.
+
+- `/destination`: Get All Destination.
+- `/destination/<id>`: Post a Destination.
+- `/destination/<id>`: Delete a Destination.
 
 ## License
 
