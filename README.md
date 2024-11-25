@@ -6,7 +6,7 @@ These are Python functions handling HTTP requests. Controllers are defined for s
 
 #For User
 
-- register new User
+- Register new User
 - Login Existing User
 - View Logined User Profile
 - View all destinations
