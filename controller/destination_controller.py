@@ -1,4 +1,4 @@
-from flask import jsonify, request
+from flask import jsonify, request # type: ignore
 from model.destination import read_destination, write_destination
 from utility.jwt import verify_token
 from model.user import read_users

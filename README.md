@@ -72,8 +72,6 @@ These are Python functions handling HTTP requests. Controllers are defined for s
 - `db/destinations.py`: Save destination as a database file.
 - `db/users.py`: Save users as a database file.
 
-## Models
-
 ## Routes
 
 - `/`: Main page to view and add tasks.
@@ -84,6 +82,12 @@ These are Python functions handling HTTP requests. Controllers are defined for s
 - `/destination`: Get All Destination.
 - `/destination/<id>`: Post a Destination.
 - `/destination/<id>`: Delete a Destination.
+
+## Test Coverage
+
+Coverage tools (like coverage.py) measure how much of your code is executed during tests.
+
+-Run: coverage report -m
 
 ## License
 
