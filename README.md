@@ -56,11 +56,14 @@ These are Python functions handling HTTP requests. Controllers are defined for s
 1. Run the application:
 
    ```bash
-   -python Servwr.py (5000 port)
+   -python server.py (5000 port)
    -python app.py (5000 port)
+
    ```
 
 2. Open your web browser and go to `http://127.0.0.1:5000/ & http://127.0.0.1:5001/`.
+2. Open your web browser # with Swagger and go to `http://127.0.0.1:5000/apidocs & http://127.0.0.1:5001/apidocs`.
+
 
 ## Project Structure
 
