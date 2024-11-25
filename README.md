@@ -90,7 +90,7 @@ These are Python functions handling HTTP requests. Controllers are defined for s
 
 Coverage tools (like coverage.py) measure how much of your code is executed during tests.
 
--Run: `coverage report -m`
+-Run: ``` coverage report -m ```
 
 ## License
 
